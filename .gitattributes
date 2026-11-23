@@ -1,1 +1,2 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
 data/No[[:space:]]Mans[[:space:]]Sky[[:space:]]Reviews.csv filter=lfs diff=lfs merge=lfs -text
