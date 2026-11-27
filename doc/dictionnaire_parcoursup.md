@@ -1,3 +1,8 @@
+# Lien BDD – Parcoursup
+
+https://data.enseignementsup-recherche.gouv.fr/explore/assets/fr-esr-parcoursup/view/
+https://data.enseignementsup-recherche.gouv.fr/explore/assets/fr-esr-parcoursup_2024/view/
+
 # Dictionnaire de données – Parcoursup
 
 **89 colonnes conservées**
@@ -7,7 +12,7 @@ Il manque des colonnes qui ont été supprimer avant que je fasse le tableau
 ## Les types de données :
 
 | TYPE   | DESCRIPTION                                | EXEMPLE             |
-|--------|--------------------------------------------|---------------------|
+| ------ | ------------------------------------------ | ------------------- |
 | string | Texte                                      | Université de Lille |
 | string | Code ou identifiant                        | 0597239Y            |
 | int    | Nombre entier                              | 360 places          |
@@ -18,7 +23,7 @@ Il manque des colonnes qui ont été supprimer avant que je fasse le tableau
 - Identification des établissements et des formations
 
 | Nom de la colonne                                                     | Description                                                                                                                 |
-|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Statut de l’établissement de la filière de formation (public, privé…) | Indique si l’établissement proposant la formation appartient au secteur public ou privé.                                    |
 | Code UAI de l'établissement                                           | Identifiant officiel de l’établissement scolaire ou universitaire, permettant de le distinguer des autres établissements.   |
 | Établissement                                                         | Nom de l’établissement proposant la formation sur Parcoursup.                                                               |
@@ -34,7 +39,7 @@ Il manque des colonnes qui ont été supprimer avant que je fasse le tableau
 ## 2. Capacité d'accueil et candidatures
 
 | Nom de la colonne                                                                       | Description                                                                                                                                                      |
-|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Capacité de l’établissement par formation                                               | Nombre de places proposées par l’établissement pour cette formation durant la campagne Parcoursup. Correspond à l’offre de formation.                            |
 | Effectif total des candidats pour une formation                                         | Nombre total de candidats ayant postulé à cette formation. Correspond à la demande de formation.                                                                 |
 | Dont effectif des candidates pour une formation                                         | Nombre de femmes parmi l’ensemble des candidats ayant postulé à cette formation.                                                                                 |
@@ -55,7 +60,7 @@ Il manque des colonnes qui ont été supprimer avant que je fasse le tableau
 ## 3. Classement des candidats
 
 | Nom de la colonne                                                                               | Description                                                                                                                      |
-|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Effectif total des candidats classés par l’établissement en phase principale                    | Nombre de candidats figurant dans le classement établi par l’établissement pendant la phase principale.                          |
 | Effectif des candidats classés par l’établissement en phase complémentaire                      | Nombre de candidats figurant dans le classement établi par l’établissement pendant la phase complémentaire.                      |
 | Effectif des candidats néo bacheliers généraux classés par l’établissement                      | Nombre de candidats issus d’un baccalauréat général de l’année figurant dans le classement de l’établissement.                   |
@@ -69,7 +74,7 @@ Il manque des colonnes qui ont été supprimer avant que je fasse le tableau
 ## 4. Propositions d'admission et admissions
 
 | Nom de la colonne                                                                                        | Description                                                                                                         |
-|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Effectif des admis en phase principale                                                                   | Nombre de candidats admis pendant la phase principale de Parcoursup.                                                |
 | Effectif des admis en phase complémentaire                                                               | Nombre de candidats admis pendant la phase complémentaire de Parcoursup.                                            |
 | Dont effectif des admis ayant reçu leur proposition d’admission à l'ouverture de la procédure principale | Nombre d’admis ayant reçu leur proposition dès l’ouverture de la phase d’admission principale.                      |
@@ -83,7 +88,7 @@ Il manque des colonnes qui ont été supprimer avant que je fasse le tableau
 ## 5. Mentions au baccalauréat
 
 | Nom de la colonne                                                                       | Description                                                                                                                        |
-|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Dont effectif des admis néo bacheliers sans information sur la mention au bac           | Nombre de néo-bacheliers admis dont la mention au bac est inconnue. Cela ne signifie pas qu’ils n’ont pas obtenu de mention.       |
 | Dont effectif des admis néo bacheliers sans mention au bac                              | Nombre de néo-bacheliers admis ayant obtenu leur baccalauréat sans mention (de 10 à moins de 12/20).                               |
 | Dont effectif des admis néo bacheliers avec mention Assez Bien au bac                   | Nombre de néo-bacheliers admis ayant obtenu leur baccalauréat avec mention Assez Bien (de 12 à moins de 14/20).                    |
@@ -97,14 +102,14 @@ Il manque des colonnes qui ont été supprimer avant que je fasse le tableau
 ## 6. Origine géographique et scolaire des admis
 
 | Nom de la colonne                                                                    | Description                                                                                              |
-|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | Dont effectif des admis issus de la même académie                                    | Nombre de néo-bacheliers admis dont l’académie d’origine correspond à celle de la formation.             |
 | Dont effectif des admis issus de la même académie (Paris/Créteil/Versailles réunies) | Même indicateur que BM, en considérant Paris, Créteil et Versailles comme un seul ensemble géographique. |
 
 ## 7. Pourcentages liés aux admissions
 
 | Nom de la colonne                                                                          | Description                                                                                                                                         |
-|--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | % d’admis ayant reçu leur proposition d’admission à l'ouverture de la procédure principale | Pourcentage des admis ayant reçu leur proposition dès l’ouverture de la phase principale, parmi l’ensemble des admis.                               |
 | % d’admis ayant reçu leur proposition d’admission avant le baccalauréat                    | Pourcentage des admis ayant reçu leur proposition avant le baccalauréat, parmi l’ensemble des admis.                                                |
 | % d’admis ayant reçu leur proposition d’admission avant la fin de la procédure principale  | Pourcentage des admis ayant reçu leur proposition avant la clôture de la phase principale, parmi l’ensemble des admis.                              |
@@ -130,7 +135,7 @@ Il manque des colonnes qui ont été supprimer avant que je fasse le tableau
 ## 8. Propositions d'admission selon le type de bac
 
 | Nom de la colonne                                                                                                                                | Description                                                                                                                                                |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Effectif des candidats en terminale générale ayant reçu une proposition d’admission de la part de l’établissement                                | Nombre de candidats en terminale générale auxquels l’établissement a proposé une place, qu’ils aient accepté ou refusé cette proposition.                  |
 | Dont effectif des candidats boursiers en terminale générale ayant reçu une proposition d’admission de la part de l’établissement                 | Nombre de boursiers parmi les candidats en terminale générale ayant reçu une proposition d’admission.                                                      |
 | Effectif des candidats en terminale technologique ayant reçu une proposition d’admission de la part de l’établissement                           | Nombre de candidats en terminale technologique auxquels l’établissement a proposé une place, qu’ils aient accepté ou refusé cette proposition.             |
@@ -142,13 +147,13 @@ Il manque des colonnes qui ont été supprimer avant que je fasse le tableau
 ## 9. Groupes de classement et listes d’attente
 
 | Nom de la colonne                  | Description                                                                                                        |
-|------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Rang du dernier appelé du groupe 1 | Position dans le classement du dernier candidat appelé pour recevoir une proposition d’admission dans le groupe 1. |
 
 ## 10. Informations techniques et indicateurs d’accès
 
 | Nom de la colonne                                                                                            | Description                                                                                                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Taux d’accès                                                                                                 | Pourcentage de candidats en phase principale en position de recevoir une proposition, selon le périmètre de calcul de Parcoursup. Ne correspond pas au pourcentage ayant accepté une proposition. |
 | Part des terminales générales qui étaient en position de recevoir une proposition en phase principale        | Part des candidats en terminale générale parmi les candidats de terminale en position de recevoir une proposition pendant la phase principale.                                                    |
 | Part des terminales technologiques qui étaient en position de recevoir une proposition en phase principale   | Part des candidats en terminale technologique parmi les candidats de terminale en position de recevoir une proposition pendant la phase principale.                                               |
