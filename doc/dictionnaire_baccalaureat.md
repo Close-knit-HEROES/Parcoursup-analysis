@@ -1,3 +1,7 @@
+# Lien BDD - baccalauréat
+
+https://www.data.gouv.fr/explore/le-baccalaureat-par-academie
+
 # Dictionnaire de données – Résultats du baccalauréat
 
 **11 colonnes conservées**
@@ -5,7 +9,7 @@
 ## Les types de données :
 
 | TYPE   | DESCRIPTION              | EXEMPLE           |
-|--------|--------------------------|-------------------|
+| ------ | ------------------------ | ----------------- |
 | int    | Année                    | 2024              |
 | string | Code ou identifiant      | 15                |
 | string | Texte                    | STRASBOURG        |
@@ -15,7 +19,7 @@
 ## 1. Identification et profil des candidats
 
 | Nom de la colonne  | Description                                                                                                            |
-|--------------------|------------------------------------------------------------------------------------------------------------------------|
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | Session            | Année durant laquelle les candidats ont passé les épreuves du baccalauréat.                                            |
 | Libellé académie   | Nom de l’académie à laquelle sont rattachés les candidats ayant passé le baccalauréat.                                 |
 | Sexe               | Sexe des candidats concernés par les résultats de la ligne, par exemple GARCONS ou FILLES.                             |
@@ -27,14 +31,14 @@
 ## 2. Inscriptions et participation aux épreuves
 
 | Nom de la colonne  | Description                                                                                                       |
-|--------------------|-------------------------------------------------------------------------------------------------------------------|
+| ------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | Nombre d'inscrits  | Nombre total de candidats inscrits aux épreuves, qu’ils se soient présentés ou non.                               |
 | Nombre de présents | Nombre de candidats ayant effectivement participé aux épreuves, selon les critères de présence du jeu de données. |
 
 ## 5. Résultats définitifs et mentions au baccalauréat
 
 | Nom de la colonne        | Description                                                                                                        |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------|
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
 | Nombre d'admis totaux    | Nombre total de candidats ayant obtenu leur baccalauréat, directement au premier groupe ou après le second groupe. |
 | Nombre de refusés totaux | Nombre total de candidats ayant échoué au baccalauréat, au premier groupe ou après le second groupe.               |
 
