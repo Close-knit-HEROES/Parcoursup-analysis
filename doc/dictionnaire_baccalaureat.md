@@ -42,7 +42,20 @@ https://www.data.gouv.fr/explore/le-baccalaureat-par-academie
 | Nombre d'admis totaux    | Nombre total de candidats ayant obtenu leur baccalauréat, directement au premier groupe ou après le second groupe. |
 | Nombre de refusés totaux | Nombre total de candidats ayant échoué au baccalauréat, au premier groupe ou après le second groupe.               |
 
-## 6. Points de vigilance
+## 6. Source data set Baccalauréat
+
+- Titre : Le baccalauréat par académie
+- Date de création : Non renseignée dans la fiche consultée
+- Date de modification : 23 juin 2026
+- Producteur : Ministère de l'Éducation nationale – Direction de l'évaluation, de la prospective et de la performance (DEPP)
+- Licence : Licence Ouverte 2.0
+- Format : CSV
+- Dernière session disponible : 2025
+- Sessions étudiées : 2024 et 2025
+- Périmètre étudié : Académies de Lille et d'Amiens
+- URL : https://www.data.gouv.fr/explore/le-baccalaureat-par-academie
+
+## 7. Points de vigilance
 
 - Chaque ligne représente un groupe de candidats, et non un candidat individuel.
 
@@ -51,5 +64,3 @@ https://www.data.gouv.fr/explore/le-baccalaureat-par-academie
 - Les admis totaux comprennent déjà les admis des deux groupes : éviter les doubles comptages.
 
 - Le taux de réussite se calcule sur les candidats présents.
-
-- Vérifier la session avant de rapprocher ces données de Parcoursup 2025.
